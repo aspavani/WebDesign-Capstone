@@ -1,0 +1,35 @@
+#carouselExampleControls {
+    width: 100%;
+    margin: auto;
+    height: 50vh;
+    overflow: hidden;
+}
+
+main {
+    min-height: 100vh;
+}
+
+/* Styling for Products page */
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 20px;
+    text-align: center;
+}
+
+.flex-item {
+    padding: 10px;
+    flex: 20%;
+    margin:auto;
+}
+
+/* Responsive layout - changes flex direction to column for screen sizes less than 600px */
+@media (max-width: 600px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
+
+/* End - Styling for Products page */
