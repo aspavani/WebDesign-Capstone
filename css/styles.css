@@ -35,6 +35,11 @@ main {
 h4.card-title {
     color: brown;
 }
+
+.carousel-caption>h4{
+    color:whitesmoke;
+    font-weight: bold;
+}
 .flex-container {
     display: flex;
     flex-direction: row;
