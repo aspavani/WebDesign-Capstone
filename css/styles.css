@@ -36,20 +36,23 @@ main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    font-size: 20px;
-    text-align: center;
+    font-size: 20px; 
+    justify-content: space-between;
 }
 
 .flex-item {
     padding: 10px;
-    flex: 20%;
-    margin:auto;
+    width: 30%;
+    /* text-align: center; */
 }
 
 /* Responsive layout - changes flex direction to column for screen sizes less than 600px */
 @media (max-width: 600px) {
     .flex-container {
         flex-direction: column;
+    }
+    .flex-container > .flex-item {
+        width: 100%;
     }
 }
 
