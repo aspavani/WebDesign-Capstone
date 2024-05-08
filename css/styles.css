@@ -32,6 +32,9 @@ main {
     object-fit: cover;  
 }
 
+h4.card-title {
+    color: brown;
+}
 .flex-container {
     display: flex;
     flex-direction: row;
