@@ -39,6 +39,7 @@ h4.card-title {
 .carousel-caption>h4{
     color:whitesmoke;
     font-weight: bold;
+    text-shadow: #3f381b 3px 0 10px;
 }
 .flex-container {
     display: flex;
